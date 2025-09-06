@@ -26,12 +26,17 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 ## 📂 Estrutura do Repositório
 
 ├── DenseNet-121/
+
 │   ├── Bruto/
+
 │   │   ├── DenseNet-121_ADAM.py
 │   │   └── DenseNet-121_SGD.py
+
 │   └── Filtro_de_Wavelet/
+
 │       ├── DenseNet-121_ADAM.py
 │       └── DenseNet-121_SGD.py
+
 ├── EfficientNetB2/
 │   ├── Bruto/
 │   │   ├── EfficientNetB2_ADAM.py
