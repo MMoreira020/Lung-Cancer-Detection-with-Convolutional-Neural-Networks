@@ -25,21 +25,41 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 
 ## 📂 Estrutura do Repositório
 
-├── ResNet-50/
-│   ├── ResNet-50_ADAM.py
-│   └── ResNet-50_SGD.py
 ├── DenseNet-121/
-│   ├── DenseNet-121_ADAM.py
-│   └── DenseNet-121_SGD.py
-├── InceptionV3/
-│   ├── InceptionV3_ADAM.py
-│   └── InceptionV3_SGD.py
-├── SqueezeNet1_0/
-│   ├── SqueezeNet1_0_ADAM.py
-│   └── SqueezeNet1_0_SGD.py
+│   ├── Bruto/
+│   │   ├── DenseNet-121_ADAM.py
+│   │   └── DenseNet-121_SGD.py
+│   └── Filtro_de_Wavelet/
+│       ├── DenseNet-121_ADAM.py
+│       └── DenseNet-121_SGD.py
 ├── EfficientNetB2/
-│   ├── EfficientNetB2_ADAM.py
-│   └── EfficientNetB2_SGD.py
+│   ├── Bruto/
+│   │   ├── EfficientNetB2_ADAM.py
+│   │   └── EfficientNetB2_SGD.py
+│   └── Filtro_de_Wavelet/
+│       ├── EfficientNetB2_ADAM.py
+│       └── EfficientNetB2_SGD.py
+├── InceptionV3/
+│   ├── Bruto/
+│   │   ├── InceptionV3_ADAM.py
+│   │   └── InceptionV3_SGD.py
+│   └── Filtro_de_Wavelet/
+│       ├── InceptionV3_ADAM.py
+│       └── InceptionV3_SGD.py
+├── ResNet-50/
+│   ├── Bruto/
+│   │   ├── ResNet-50_ADAM.py
+│   │   └── ResNet-50_SGD.py
+│   └── Filtro_de_Wavelet/
+│       ├── ResNet-50_ADAM.py
+│       └── ResNet-50_SGD.py
+├── SqueezeNet1_0/
+│   ├── Bruto/
+│   │   ├── SqueezeNet1_0_ADAM.py
+│   │   └── SqueezeNet1_0_SGD.py
+│   └── Filtro_de_Wavelet/
+│       ├── SqueezeNet1_0_ADAM.py
+│       └── SqueezeNet1_0_SGD.py
 └── README.md
 
 ## 🚀 Como Utilizar
@@ -53,17 +73,25 @@ Para executar os scripts de treinamento, você precisará ter as seguintes bibli
 
 1.  **Clone o repositório:**
     ```bash
-    git clone [https://github.com/seu-usuario/nome-do-repositorio.git](https://github.com/seu-usuario/nome-do-repositorio.git)
+    git clone https://github.com/seu-usuario/Lung-Cancer-Detection-with-Convolutional-Neural-Networks.git
     ```
 
 2.  **Navegue até a pasta do modelo desejado:**
     ```bash
-    cd nome-do-repositorio/ResNet-50
+    # Exemplo para treinar ResNet-50 com dados brutos e otimizador ADAM
+    cd Lung-Cancer-Detection-with-Convolutional-Neural-Networks/ResNet-50/Bruto
+
+    # Exemplo para treinar ResNet-50 com dados filtrados (Wavelet) e otimizador SGD
+    cd Lung-Cancer-Detection-with-Convolutional-Neural-Networks/ResNet-50/Filtro_de_Wavelet
     ```
 
 3.  **Execute o script de treinamento:**
     ```bash
+    # Exemplo para o primeiro caso (ResNet-50, Bruto, ADAM)
     python ResNet-50_ADAM.py
+
+    # Exemplo para o segundo caso (ResNet-50, Filtro_de_Wavelet, SGD)
+    python ResNet-50_SGD.py
     ```
 
 ## 📈 Resultados (Exemplo)
