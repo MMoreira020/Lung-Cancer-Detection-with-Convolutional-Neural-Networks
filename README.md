@@ -26,14 +26,10 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 ## 📂 Estrutura do Repositório
 
 ├── DenseNet-121/
-
 │   ├── Bruto/
-
 │   │   ├── DenseNet-121_ADAM.py
 │   │   └── DenseNet-121_SGD.py
-
 │   └── Filtro_de_Wavelet/
-
 │       ├── DenseNet-121_ADAM.py
 │       └── DenseNet-121_SGD.py
 
@@ -44,6 +40,7 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 │   └── Filtro_de_Wavelet/
 │       ├── EfficientNetB2_ADAM.py
 │       └── EfficientNetB2_SGD.py
+
 ├── InceptionV3/
 │   ├── Bruto/
 │   │   ├── InceptionV3_ADAM.py
@@ -51,6 +48,7 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 │   └── Filtro_de_Wavelet/
 │       ├── InceptionV3_ADAM.py
 │       └── InceptionV3_SGD.py
+
 ├── ResNet-50/
 │   ├── Bruto/
 │   │   ├── ResNet-50_ADAM.py
@@ -58,6 +56,7 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 │   └── Filtro_de_Wavelet/
 │       ├── ResNet-50_ADAM.py
 │       └── ResNet-50_SGD.py
+
 ├── SqueezeNet1_0/
 │   ├── Bruto/
 │   │   ├── SqueezeNet1_0_ADAM.py
@@ -65,14 +64,15 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 │   └── Filtro_de_Wavelet/
 │       ├── SqueezeNet1_0_ADAM.py
 │       └── SqueezeNet1_0_SGD.py
+
 └── README.md
 
 ## 🚀 Como Utilizar
 
 Para executar os scripts de treinamento, você precisará ter as seguintes bibliotecas instaladas:
 
-* Python 3.x
-* PyTorch
+* Python 3.10
+* PyTorch version 2.5.1+cu121
 * NumPy
 * Matplotlib (para visualização dos resultados)
 
