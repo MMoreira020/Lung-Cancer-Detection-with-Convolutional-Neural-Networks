@@ -23,6 +23,13 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 
 * **SGD (Stochastic Gradient Descent):** Um otimizador clássico e fundamental. A versão utilizada neste projeto provavelmente inclui aprimoramentos comuns como momentum e decaimento da taxa de aprendizado, que ajudam a acelerar o treinamento e a evitar mínimos locais.
 
+* 📊 Conjunto de Dados
+* O conjunto de dados utilizado neste projeto é o IQ-OTH/NCCD Lung Cancer Dataset, disponível publicamente no Kaggle.
+
+🔗 Link para o dataset: https://www.kaggle.com/datasets/hamdallak/the-iqothnccd-lung-cancer-dataset
+
+Este dataset contém imagens de tomografia computadorizada (CT) divididas em três classes: canceroso, benigno e normal, permitindo o treinamento e validação dos modelos de detecção de câncer de pulmão.
+
 ## 📂 Estrutura do Repositório
 
 
