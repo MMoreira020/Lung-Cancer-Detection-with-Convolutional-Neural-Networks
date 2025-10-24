@@ -25,6 +25,9 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 
 ## 📂 Estrutura do Repositório
 
+
+```
+
 ├── DenseNet-121/
 │   ├── Bruto/
 │   │   ├── DenseNet-121_ADAM.py
@@ -67,6 +70,7 @@ Cada um dos modelos acima foi treinado utilizando os dois otimizadores a seguir:
 
 └── README.md
 
+```
 ## 🚀 Como Utilizar
 
 Para executar os scripts de treinamento, você precisará ter as seguintes bibliotecas instaladas:
